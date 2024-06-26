@@ -1,0 +1,60 @@
+:root{
+    --main-color: #1f2c33;
+    --secondary-color: #c1dff0;
+    --tertiary-color: #00729b;
+    --forth-color: #14484c;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    background-color: var(--secondary-color);
+    padding: 10px 35px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .back-arrow {
+    color: var(--tertiary-color);
+    font-size: 24px;
+    text-decoration: none;
+    margin-left: 35px;
+}
+
+.navbar .back-arrow:hover {
+    color: var(--main-color);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.how-to-content h1 {
+    color: var(--tertiary-color);
+    margin-bottom: 20px;
+}
+
+.how-to-content p {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.how-to-content ol {
+    margin-bottom: 20px;
+}
+
+.how-to-content ol li {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.how-to-content p:last-child {
+    margin-top: 20px;
+}

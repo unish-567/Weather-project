@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --main-color: #1f2c33;
+    --secondary-color: #c1dff0;
+    --tertiary-color: #00729b;
+    --forth-color: #14484c;
+}
+
+.navbar,
+ul .dropdown-menu.show {
+    background-color: var(--secondary-color);
+}
+
+.navbar a {
+    color: var(--tertiary-color);
+    font-weight: 550;
+}
+
+.navbar-brand>img {
+    height: 50px;
+    width: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left-section,
+.right-section {
+    padding: 20px;
+}
+
+.weather-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.weather-info-box {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.sunrise video{
+    width: 100%;
+    max-width: 350px;
+    border-radius: 1.5rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.sunset video {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 1.5rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.right-section p{
+    text-align: center;
+}
+
+.right-section p,
+.clouds p {
+    font-size: 20px;
+}
+
+h2 {
+    color: var(--tertiary-color);
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .left-section,
+    .right-section {
+        width: 100%;
+        padding: 10px;
+    }
+    .sunrise video,
+    .sunset video {
+        width: 100%;
+    }
+}
